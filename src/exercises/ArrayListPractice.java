@@ -1,7 +1,7 @@
 package exercises;
 import java.util.ArrayList;
 
-public class SumOfEvens {
+public class ArrayListPractice {
 
     public static void main(String[] args) {
         ArrayList<Integer> students = new ArrayList<>();
@@ -26,8 +26,12 @@ public class SumOfEvens {
                 if (integer % 2 == 0) {
                     total += integer;
                 }
+
+//                }int answer = sumEven(students); //i want to print out the sum of evens? total even students is 60
+//                System.out.println();
             }
             return total;
+
         }
 
 
