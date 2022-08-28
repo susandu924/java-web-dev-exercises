@@ -10,8 +10,10 @@ public class SchoolPractice {
         student.setNumberOfCredits(1);
         student.setGpa(4.0);
 
-//        return student; ??????
+//        return;
         System.out.println(student);
+
         // Instantiate your Student class for part 2 here!
+        return null;
     }
 }
