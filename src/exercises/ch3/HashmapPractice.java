@@ -20,6 +20,7 @@ public class HashmapPractice {
 
 
 
+
             if (!newStudentId.equals(-1)) {
                 System.out.print("Students Name: ");
                 String newStudentName = input.nextLine();
