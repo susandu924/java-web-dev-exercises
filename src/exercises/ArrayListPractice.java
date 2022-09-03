@@ -1,7 +1,26 @@
 package exercises;
 import java.util.ArrayList;
-//
-//public class ArrayListPractice {
+
+public class ArrayListPractice {
+
+    public static void main(String[] args) {
+    }
+
+    public static int sumEvens(ArrayList<Integer> arr) {
+        int[] integerArray = {1, 1, 2, 3, 5, 8, 10, 18, 22, 27};
+        int total = 0;
+
+        for (int i : arr) {
+            if (i % 2 == 0) {
+                total += i;
+//                return total;
+            }
+            System.out.println(i);
+        }
+return total;
+
+    }
+}
 //
 //    public static void main(String[] args) {
 //
@@ -54,19 +73,6 @@ import java.util.ArrayList;
 //
 //
 //
-////    public static void main(String[] args)
-//////    public static int sumEvens(ArrayList<Integer> arr)
-////    {
-////        int[] integerArray = {1, 1, 2, 3, 5, 8, 10, 18, 22, 27};
-////        int total = 0;
-////        for (int i : integerArray) {
-////            if (i % 2 == 0) {
-////                total += i;
-////
-////            }
-////            return total;
-////        }
-////
-//////                System.out.println(i);
+
 //
 //
