@@ -1,4 +1,4 @@
-package org.launchcode.java.demos.lsn3classes1;
+package exercises.ch4.school;
 
 public class Teacher {
     private String firstName;
@@ -6,16 +6,11 @@ public class Teacher {
     private String subject;
     private int yearsTeaching;
 
-    public Teacher(){
-
-    }
-
-
     public String getFirstName() {
         return firstName;
     }
 
-    public void setFirstName(String firstName) {
+    private void setFirstName(String firstName) {
         this.firstName = firstName;
     }
 
